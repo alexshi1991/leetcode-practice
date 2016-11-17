@@ -21,10 +21,10 @@ public class Solution {
     
     // custom comparator
     private static class ByNodeValue implements Comparator<ListNode> {
-		public int compare(ListNode node1, ListNode node2) {
-			return node1.val - node2.val;
-		}
+	public int compare(ListNode node1, ListNode node2) {
+		return node1.val - node2.val;
 	}
+    }
     
     private static final Comparator<ListNode> ListNodeComparator = new ByNodeValue();
     
