@@ -4,6 +4,7 @@
  * Idea:   1. backtracking
  *         2. sort the candidates array first
  *         3. each recursive call only considers items from candidates[begin...]
+ *         4. IMPORTANT: problem assumes the candidates array DOES NOT contain duplicates 
  *         
  */
 
