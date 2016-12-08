@@ -18,7 +18,7 @@
  */
 public class Solution {
     
-    // iterative solution
+    // iterative solution - BFS
     public boolean isSymmetric(TreeNode root) {
         if(root==null)  return true;
     	Queue<TreeNode> leftQueue = new LinkedList<TreeNode>();
